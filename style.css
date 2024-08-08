@@ -1,0 +1,299 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes slidein{
+  from {
+    margin-left: 80%;
+    width: 35%;
+  }
+
+  to {
+    margin-left: 25%;
+    width: 50%;
+  }
+}
+
+/* Estilo do body */
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-image: linear-gradient(#cadab8,#93ac74);
+}
+
+.entrada{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #354620;
+  font-size: 20px;
+  text-align: center;
+
+}
+.hidden {
+  visibility: hidden;
+}
+
+/* Cabeçalho / Logo */
+.cabecalho {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 100px;
+  text-align: center;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #badfff;
+  background-image: url(soleplantacao.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #354620;
+}
+
+/* Ajusta o tamanho da fonte do cabeçalho */
+.cabecalho h1 {
+  font-size: 40px;
+}  
+
+.objetivo-imagem{
+  width: 25%;
+}
+.objetivo{
+  color: #2b1f19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.objetivo-div-conteudo{
+  width: 35%;
+}
+.objetivo-titulo{
+  padding: 24px 0;
+}
+
+.projeto{
+color: #2b1f19;
+display: flex;
+justify-content:center;
+align-items: center;
+padding: 20px 0;
+}
+.projeto-div-conteudo{
+width: 35%;
+}
+.projeto-titulo{
+padding: 24px 0;
+}
+* {
+  box-sizing: border-box;
+}
+/* Barra de navegação no topo */
+.navbar {
+  overflow: hidden;
+  background-color: #2f5222	;
+}
+
+/* Estilo da barra de navegação */
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Alinha o link na direita */
+.navbar a.right {
+  float: right;
+}
+
+/* Muda cor quando o mouse passa */
+.navbar a:hover {
+  background-color: rgb(0, 0, 0)	;
+  color: #2f5222;
+}
+
+/* Container da Coluna */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Main */
+.principal {
+  display: flex;   
+  flex: 70%;
+  padding: 20px;
+  justify-content: center;
+  color: black;
+}
+
+
+/* Responsive layout - quando a tela for menor que 700px o conteúdo fica um em cima do outro*/
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - links encima um do outro quando a tela for menor que 400px */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*detalhes da caixa do produto*/
+.produto {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    width: auto;
+    margin: 50px;
+    border-radius: 10px;
+  }
+  
+  /*efeito quando passa o mouse na caixa do produto*/
+  .produto:hover {
+    box-shadow: 0 10px 26px 0 rgb(61, 136, 61);
+    transform: scale(1.6);
+  }
+  
+  /*cria a caixa do produto*/
+  .caixa-produto {
+    padding: 2px 16px;
+  }
+
+/* id para ajustar a imagem do produto*/
+#img-produto {
+    max-height: 360px;
+    width: auto;
+    padding: 6px;
+}
+
+#img-produto2 {
+  max-height: 360px;
+  width: auto;
+}
+
+#menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+}
+
+#menu img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+#menu {
+width: 100%;
+background-color: #354620; /* Cor combinando com o site */
+position: relative;
+top: 0px; /* Logo abaixo do cabeçalho */
+left: 0;
+z-index: 1;
+display: flex;
+justify-content: center; /* Centraliza os itens do menu */
+padding: 10px;
+}
+
+#menu a {
+padding: 10px 14px;
+text-decoration: none;
+font-size: 20px;
+color: #cadab8; /* Cor do texto combinando com o site */
+transition: 0.3s;
+}
+
+#menu a:hover {
+background-color: #93ac74; /* Cor de destaque ao passar o mouse */
+  color: #354620;
+}
+
+/* Ajusta a margem do conteúdo principal para não ficar embaixo do menu */
+#main {
+padding: 16px;
+margin-top:220px; /* Adiciona margem superior para evitar sobreposição */
+
+}
+/* Estilo para o rodapé */
+.footer {
+background-color: #354620; /* Cor combinando com o site */
+color: #cadab8; /* Cor do texto combinando com o site */
+padding: 20px;
+text-align: center;
+position: relative; /* Para garantir que o rodapé fique no final da página */
+bottom: 0;
+width: 100%;
+}
+
+.footer-content h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.footer-content p {
+margin: 5px 0;
+}
+/* Estilo da seção de contato */
+.contato {
+color: #2b1f19;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 0;
+}
+
+.contato-div-conteudo {
+width: 35%;
+}
+
+.contato-titulo {
+padding: 24px 0;
+}
+
+#contato-form {
+display: flex;
+flex-direction: column;
+}
+
+#contato-form label {
+margin-top: 10px;
+}
+
+#contato-form input,
+#contato-form textarea {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #cadab8;
+border-radius: 5px;
+}
+
+#contato-form button {
+margin-top: 15px;
+padding: 10px;
+background-color: #354620;
+color: #cadab8;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#contato-form button:hover {
+background-color: #93ac74;
+}
