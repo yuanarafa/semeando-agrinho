@@ -31,9 +31,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     }
 });
-
 document.querySelector('.entrada').addEventListener('animationend', function() {
-    console.log('A animação terminou!');
-    
-    this.classList.add('animated');
+    this.classList.add('hidden'); 
 });
+
+
