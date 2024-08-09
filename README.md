@@ -1,6 +1,6 @@
 # Agrinho Semeando Inovacões  
 
-##Descrição
+**Descrição
 Semeando Inovações foi desenvolvido para responder ao desafio de atrair jovens para o setor agrícola, um campo tradicionalmente visto como trabalho árduo e pouco tecnológico. Com o avanço das novas tecnologias, como a agricultura de precisão, drones e robótica, este projeto busca mostrar que o campo pode ser um ambiente de inovação e empreendedorismo, incentivando os jovens a investir na agricultura como uma carreira promissora e sustentável.
 
 ##Sobre o Projeto
