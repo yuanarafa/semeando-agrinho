@@ -18,8 +18,8 @@ Vercel:
 - Formulário: Utilize a página de "Fale conosco" para enviar suas dúvidas, sugestões ou se inscrever em nossas atividades.
 
 <h2><strong>Tecnologias Utilizadas</strong></h2><br>
-- HTML 
-- CSS 
+- HTML <br>
+- CSS <br>
 - Javascript
 
 <h2><strong>Instalação</strong></h2><br>
@@ -30,7 +30,7 @@ git clone https://github.com/usuario/agrinho-semeando-inovacoes.git
 <h2><strong>Licença</strong></h2><br>
 Distribuído sob licença MIT. Veja LICENÇA para mais informações.
 
-##**Contato** <br>
+<h2><strong>Contato</strong></h2> <br>
 - Ana Rafaela Camargo dos Santos
 - @yuanarafa
 - camargo.santos.ana@escola.pr.gov.br
