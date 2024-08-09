@@ -12,8 +12,8 @@ Github: https://yuanarafa.github.io/semeando-agrinho/
 Vercel: https://semeando-agrinho.vercel.app/
 
 <h2><strong>Instruções de uso</strong></h2><br>
-- Navegação: Utilize o menu lateral para acessar as diferentes seções do site, como "Objetivos", "Projetos", e "Contato".
-- Interação com Projetos: Na seção "Projetos", explore os exemplos práticos de robótica aplicada à agricultura. Clique nas imagens para visualizar detalhes dos projetos desenvolvidos por alunos.
+- **Navegação**: Utilize o menu lateral para acessar as diferentes seções do site, como "Objetivos", "Projetos", e "Contato".
+- **Interação com Projetos**: Na seção "Projetos", explore os exemplos práticos de robótica aplicada à agricultura. Clique nas imagens para visualizar detalhes dos projetos desenvolvidos por alunos.
 - Contato: Na seção "Contato", você encontrará informações de contato para obter mais detalhes ou participar das iniciativas do projeto.
 - Formulário: Utilize a página de "Fale conosco" para enviar suas dúvidas, sugestões ou se inscrever em nossas atividades.
 
