@@ -18,9 +18,9 @@ Vercel:
 - Formulário: Utilize a página de "Fale conosco" para enviar suas dúvidas, sugestões ou se inscrever em nossas atividades.
 
 <h2><strong>Tecnologias Utilizadas</strong></h2><br>
--HTML 
--CSS 
--Javascript
+- HTML 
+- CSS 
+- Javascript
 
 <h2><strong>Instalação</strong></h2><br>
 Passos para instalar e configurar o projeto localmente:
