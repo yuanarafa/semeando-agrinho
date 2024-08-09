@@ -23,7 +23,7 @@ Vercel:
 - Javascript
 
 <h2><strong>Instalação</strong></h2><br>
-Passos para instalar e configurar o projeto localmente:
+Passos para instalar e configurar o projeto localmente:<br>
 - Clonar ou repositório:
 git clone https://github.com/usuario/agrinho-semeando-inovacoes.git
 
