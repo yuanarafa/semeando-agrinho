@@ -9,7 +9,7 @@ O Agrinho: Semeando Inovações tem como missão transformar a percepção da ag
 <h2><strong>Acesso</strong></h2><br>
 Github: https://yuanarafa.github.io/semeando-agrinho/
 <br>
-Vercel: 
+Vercel: https://semeando-agrinho.vercel.app/
 
 <h2><strong>Instruções de uso</strong></h2><br>
 - Navegação: Utilize o menu lateral para acessar as diferentes seções do site, como "Objetivos", "Projetos", e "Contato".
